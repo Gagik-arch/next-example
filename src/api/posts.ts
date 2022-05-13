@@ -10,10 +10,11 @@ class PostApi extends Api {
             .then(res => {
                 console.log(res)
             })
-            .catch(e=>{
+            .catch(e => {
                 console.log(e)
             })
     }
+
 }
 
 const postApi = new PostApi()
